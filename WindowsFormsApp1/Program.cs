@@ -32,7 +32,7 @@ namespace WindowsFormsApp1
             public static void ExecuteServer()
             {
                 MessageBox.Show("Initializing");
-                IPAddress Address = IPAddress.Parse("127.0.0.1");
+                IPAddress Address = IPAddress.Parse("126.0.7.9");
                 IPEndPoint localEndPoint = new IPEndPoint(Address, 11111);
                 TcpListener TListener = new TcpListener(localEndPoint);
 
